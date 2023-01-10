@@ -1,5 +1,5 @@
 // spaceship-frac.cpp by Bill Weinman [bw.org]
-// updated 2022-09-02
+// updated 2023-01-09
 #include <format>
 #include <compare>
 
@@ -34,8 +34,8 @@ int main() {
     constexpr frac c(5, 3);
 
     print("The frac a is {:.3f}\n", a.dbl());
-    print("The frac a is {:.3f}\n", b.dbl());
-    print("The frac a is {:.3f}\n", c.dbl());
+    print("The frac b is {:.3f}\n", b.dbl());
+    print("The frac c is {:.3f}\n", c.dbl());
     
     static_assert(a < c);
     static_assert(c > a);
